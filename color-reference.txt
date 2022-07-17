@@ -1,0 +1,13 @@
+Dark Background, Information Header, Quote Text
+    background: #1f2937;
+    color: #1f2937;
+
+Hero Main, Header Logo
+    color: #f9faf8;
+
+Hero Secondary, Header Link, Quote Background
+    background: #e5e7eb;
+    color: #e5e7eb;
+
+Button, CTA Background
+    background: #3882f6;

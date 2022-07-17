@@ -45,7 +45,8 @@ footer {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 8px 128px;
+    align-items: center;
+    padding: 8px 400px;
 }
 
 header ul {
@@ -55,6 +56,40 @@ header ul {
 
 header li {
     flex: 0 1 auto;
+}
+
+.hero {
+    display: flex;
+    gap: 48px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px 400px;
+}
+
+.hero img {
+    width: 600px;
+    height: 300px;
+}
+
+.container-1 {
+    display: flex;
+    flex: 1;
+    gap: 8px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signup {
+    padding: 8px;
+    width: 128px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.container-1 .signup {
+    border: none;
 }
 
 .quote {

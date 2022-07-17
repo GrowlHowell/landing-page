@@ -1,6 +1,6 @@
 Hero Main
     font-size: 48px;
-    font-weight: extra bold;
+    font-weight: 800;
 
 Hero Secondary, Header Link
     font-size: 18px;
@@ -8,11 +8,11 @@ Hero Secondary, Header Link
 Header Logo
     font-size: 24px;
 
-Information Header
+Information Title
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: 800;
 
 Quote
     font-size: 36px;
-    font-weight: light;
+    font-weight: 300;
     font-style: italic;

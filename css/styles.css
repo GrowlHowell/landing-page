@@ -49,6 +49,10 @@ header {
     padding: 8px 400px;
 }
 
+.logo {
+    font-size: 24px;
+}
+
 header ul {
     display: flex;
     gap: 20px;
@@ -64,6 +68,11 @@ header li {
     justify-content: space-between;
     align-items: center;
     padding: 96px 400px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 800;
 }
 
 .hero img {
@@ -100,6 +109,11 @@ header li {
     gap: 48px;
 }
 
+.information-title {
+    font-size: 36px;
+    font-weight: 800;
+}
+
 .container-2 {
     display: flex;
     justify-content: center;
@@ -125,24 +139,19 @@ header li {
 
 .quote {
     background: #e5e7eb;
-}
-
-.hero-text {
-    font-size: 48px;
-    font-weight: 800;
-}
-
-.logo {
-    font-size: 24px;
-}
-
-.information-title {
-    font-size: 36px;
-    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    padding: 96px 500px;
 }
 
 .quote-text {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+}
+
+.quote-author {
+    align-self: flex-end;
+    margin: 0 20px 0 0;
+    font-weight: 700;
 }

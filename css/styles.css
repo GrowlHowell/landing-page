@@ -21,7 +21,7 @@ footer {
     background: #1f2937;
 }
 
-.cta,
+.cta-container,
 .signup {
     background: #3882f6;
 }
@@ -154,4 +154,25 @@ header li {
     align-self: flex-end;
     margin: 0 20px 0 0;
     font-weight: 700;
+}
+
+.cta {
+    display: flex;
+    padding: 96px 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    width: 100%;
+    display: flex;
+    padding: 48px 0;
+    justify-content: space-around;
+    align-items: center;
+    color: #f9faf8;
+    border-radius: 8px;
+}
+
+.cta-container .signup {
+    border: 2px solid #f9faf8;
 }

@@ -1,1 +1,1 @@
-# landing-page
+This is a project highlighting basic CSS styling and structuring.
